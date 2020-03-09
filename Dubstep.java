@@ -1,6 +1,6 @@
 package dubstep;
 
-public class dubstep {
+public class Dubstep {
 	
 	public static String SongDecoder(String song){
 	    String realSong = song.replaceAll("(WUB)+", " ").trim();
