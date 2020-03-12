@@ -7,16 +7,16 @@ public class ClosestToZero {
 		
 		Arrays.sort(numbers);
 		
-	    int closestToZero = numbers[0];
+		int closestToZero = numbers[0];
 	    
 	    if(numbers.length == 0) {
-			return closestToZero;
+			return 0;
 			
 		}else{
 			for ( int i = 1; i < numbers.length; i++ ){
 				if (numbers[i] < closestToZero  
 						
-						||(Math.abs(closestToZero) == Math.abs(numbers[i]) && closestToZero < numbers[i])
+						||(Math.abs(numbers[i]) == Math.abs(closestToZero) && closestToZero < numbers[i])
 						
 						||(Math.abs(numbers[i]) < Math.abs(closestToZero) && closestToZero < 0 && numbers[i] < 0)) {
 		        	
