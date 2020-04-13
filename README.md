@@ -1,2 +1,2 @@
-# MY-codewars-challenges-java
+# My-codewars-challenges-java
 Training java coding
