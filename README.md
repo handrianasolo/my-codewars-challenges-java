@@ -1,2 +1,2 @@
-# My-codewars-challenges-java
+# Sample training exercices in Java
 Training java coding
